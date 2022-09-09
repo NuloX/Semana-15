@@ -1,0 +1,43 @@
+.mainT{
+
+    &__tramites{
+        @extend %estiloTramite;
+    }
+
+    &__griCards{
+        height: 700px;
+        @include grillaBasica;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    &__gridCardsServ{
+        height: 350px;
+        @include grillaBasica;
+    }
+
+    &__cardsTraPa{
+        margin-left: 70px;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        align-content: center;
+        justify-content: space-evenly;
+        height: 80%;
+        width: 80%;
+        background-color: #BFD5EA;
+    }
+
+    &__btnTra{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    &__ayuda{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,35 @@
+.mainE{
+
+    img{
+        height: 650px;
+        width: 100%;
+    }
+
+    &__educacion {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #04724d;
+        height: 50px;
+    }
+
+    &__subTitulos{
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        
+    }
+
+    &__grado{
+        margin-top: 15px;
+    }
+
+    &__saberMas{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}

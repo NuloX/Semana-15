@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none; }
+
+h1 {
+  font-size: 20px;
+  margin: 0 5px;
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  align-items: center; }
+
+h1 span {
+  color: #ad3030; }
+
+#busqueda {
+  width: 240px;
+  height: 22px;
+  margin-right: 10px; }
+
+.mainT__tramites {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #04724d;
+  height: 50px; }
+
+.main__titulo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 69px; }
+
+.main__rocas img {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  object-fit: none; }
+
+.main__cajatamboTitulo img {
+  width: 100%;
+  height: 69px; }
+
+.main__pared {
+  max-width: 100%;
+  height: 450px;
+  background-color: #04724d;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center; }
+
+.main__loUltimo {
+  padding: 10px; }
+
+.main__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: white;
+  height: 90%;
+  align-items: center;
+  margin: 0 25px; }
+  .main__cards img {
+    width: 100%;
+    height: 405px;
+    object-fit: contain; }
+
+.main__noticias {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center; }
+
+.main__turistico {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 650px;
+  justify-content: flex-start; }
+
+.main__noticias1 {
+  display: grid;
+  grid-template-areas: "fechas fechas" "fechas fechas";
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center; }
+
+.main__panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0; }
+
+.main__fechas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 3% 5%;
+  align-items: center; }
+  .main__fechas span {
+    width: 80px;
+    font-size: 20px;
+    height: 80px;
+    padding: 15px 20px 0px 20px;
+    font-weight: 400;
+    background-color: red;
+    color: white;
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+    justify-content: center; }
+
+.main__turismo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center; }
+
+.main__imgTu {
+  max-width: 600px;
+  max-height: 500px;
+  background-color: #04724d;
+  object-fit: contain; }
+
+.mainT__griCards {
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); }
+
+.mainT__gridCardsServ {
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+.mainT__cardsTraPa {
+  margin-left: 70px;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  align-content: center;
+  justify-content: space-evenly;
+  height: 80%;
+  width: 80%;
+  background-color: #BFD5EA; }
+
+.mainT__btnTra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; }
+
+.mainT__ayuda {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.mainE img {
+  height: 650px;
+  width: 100%; }
+
+.mainE__educacion {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #04724d;
+  height: 50px; }
+
+.mainE__subTitulos {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: left; }
+
+.mainE__grado {
+  margin-top: 15px; }
+
+.mainE__saberMas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; }
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+  .header__logoCajatambo {
+    display: flex;
+    align-items: center; }
+    .header__logoCajatambo img {
+      padding-left: 5px;
+      width: 65px;
+      height: 65px; }
+  .header__menu-mobile img {
+    width: 40px;
+    margin-right: 20px; }
+  .header__menu li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+    font-weight: 700; }
+  .header__menu li a:hover {
+    border-bottom: 1px solid red;
+    background-color: gray; }
+  .header__ul {
+    display: flex;
+    align-items: center;
+    height: 50px; }
+    .header__ul li {
+      margin: 0 7px; }
+
+.footer {
+  width: 100%;
+  background-color: #D9D9D9;
+  padding: 20px 80px; }
+  .footer__final {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+  .footer__redes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 33%; }
+    .footer__redes h4 {
+      text-align: center; }
+    .footer__redes span {
+      text-align: center;
+      padding: 3px 0px; }
+    .footer__redes span:hover {
+      transform: skew(-15deg);
+      color: #ad4930; }
+  .footer__contenido-Redes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); }

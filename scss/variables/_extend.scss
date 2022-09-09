@@ -1,0 +1,13 @@
+%estiloTramite{
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $green;
+    height: 50px;
+}
+
+@mixin grillaBasica{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

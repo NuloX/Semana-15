@@ -1,0 +1,17 @@
+KEYWORDS:
+-index: Cajatambo, cajatambino, Municipalidad de Cajatambo, Municipalidad
+-miCiudad: ciudad, seguridad, obras, ofertas laborales
+-tramitesYservicios: tramites, servicios, tramites y servicios, pasaporte, licencia de conducir, salud, seguridad
+-educacion: educacion, educacion basica, educacion regular, grado
+-otrosServicios: otros servicios, tributacion municipal, impuestos, reclamos y/o sugerencias
+
+DESCRIPTION:
+-index: Municipalidad de Cajatambo siempre en servicio del pueblo
+-miCiudad: Trabajamos por nuestra ciudad y para nuestros ciudadanos
+-tramitesYservicios: Tramites y Servicios que te ofrece la Municipalidad de Cajatambo
+-educacion: Educacion gratuita para todos en nuestra ciudad, al alcance de todos
+-otrosServicios: Ayudanos a seguir mejorando como ciudad
+
+COMENTARIOS:
+-Se subio las imagenes al cloudinary
+-Se agrego el extend y mixin en Tramites y Servicios

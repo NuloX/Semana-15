@@ -1,0 +1,121 @@
+.main{
+    &__titulo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 69px;
+    }
+
+    &__rocas{
+        img {
+            display: flex;
+            height: 69px;
+            width: 100%;
+            object-fit: none;
+          }
+    }
+
+    &__cajatamboTitulo{
+        img {
+            width: 100%;
+            height: 69px;
+          }
+    }
+
+    &__pared{
+        max-width: 100%;
+        height: 450px;
+        background-color: #04724d;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    &__loUltimo{
+        padding: 10px;
+    }
+
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: white;
+        height: 90%;
+        align-items: center;
+        margin: 0 25px;
+        img {
+            width: 100%; 
+            height: 405px;
+            object-fit:contain;
+          }
+      }
+
+    &__noticias{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+      }  
+
+    &__turistico{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 650px;
+        justify-content: flex-start;
+      }
+
+    &__noticias1 {
+        display: grid;
+        grid-template-areas: 
+        "fechas fechas"
+        "fechas fechas";
+        grid-template-rows: repeat(2,1fr);
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        justify-items: center;
+      }
+
+    &__panel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+      }
+
+    &__fechas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 3% 5%;
+        align-items: center;
+
+        span {
+            width: 80px;
+            font-size: 20px;
+            height: 80px;
+            padding: 15px 20px 0px 20px;
+            font-weight: 400;
+            background-color: red;
+            color: white;
+            display: flex;
+            text-align: center;
+            margin-right: 20px;
+            justify-content: center;
+          }
+      }
+
+    &__turismo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+    &__imgTu{
+        max-width: 600px;
+        max-height: 500px;
+        background-color: #04724d;
+        object-fit: contain;
+    }
+}
