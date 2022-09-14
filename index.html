@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="index.js"></script>
   </head>
 
   <body>
@@ -24,7 +25,8 @@
         <img src="https://res.cloudinary.com/de5vqbdgz/image/upload/v1662687326/Mis%20imagenes/logoMuni_pnzvka.png" alt="logoMunicipalidad" />
         <h1>Municipalidad de <span>CAJATAMBO</span></h1>            <!--AGREGAR EMFASIS A CAJATAMBO EN VEZ DE SPAN-->
       </div>
-      <div class="header__menu-mobile"><img src="https://res.cloudinary.com/de5vqbdgz/image/upload/v1662687326/Mis%20imagenes/menu_xm9ldg.png" alt="menumobilee" /></div>
+      <div class="header__menu-mobile header__toggle">
+        <img src="https://res.cloudinary.com/de5vqbdgz/image/upload/v1662687326/Mis%20imagenes/menu_xm9ldg.png" alt="menumobilee" /></div>
       <nav class="header__menu">
         <ul class="header__ul">
           <li>
@@ -90,8 +92,8 @@
         <section class="main__noticias1">
           <div class="main__fechas">
             <span
-              >25 <br />
-              JUL</span
+              >13 <br />
+              SEP</span
             >
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -100,7 +102,7 @@
           </div>
 
           <div class="main__fechas">
-            <span>25 <br />JUL</span>
+            <span>10 <br />SEP</span>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
@@ -108,7 +110,7 @@
           </div>
 
           <div class="main__fechas">
-            <span>25 <br />JUL</span>
+            <span>9 <br />SEP</span>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
@@ -116,8 +118,8 @@
           </div>
           <div class="main__fechas">
             <span
-              >25<br />
-              JUL</span
+              >8<br />
+              SEP</span
             >
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -131,28 +133,36 @@
         <h2 class="main__panel">TURISMO</h2>
         <section class="main__turismo">
           <div class="main__imgTu">
-            <img
+            <div class="main_img">
+              <img
               src="https://res.cloudinary.com/de5vqbdgz/image/upload/v1662687327/Mis%20imagenes/Turismo2_zeatne.jpg"
               width="600"
               height="340"
               alt="bañosInca"
-            />
-            <h3>BAÑOS DEL INCA</h3>
-            <p>
+              />
+            </div>
+            <div class="main__descripcion">
+              <h4>BAÑOS DEL INCA</h4>
+              <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ea
               expedita earum dignissimos obcaecati maiores ducimus repudiandae
               sapiente quia autem?
             </p>
+            </div>  
           </div>
           <div class="main__imgTu">
-            <img
+            <div class="main__img">
+              <img
               src="https://res.cloudinary.com/de5vqbdgz/image/upload/v1662687328/Mis%20imagenes/Turismo1_khnxfj.jpg"
               width="600"
               height="340"
               alt="turismo1"
             />
-            <H3>TROCHA DEL NEVADO</H3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias, corrupti reiciendis nemo ipsum asperiores tenetur explicabo. Possimus, reprehenderit eveniet odio corrupti inventore temporibus impedit autem fugit blanditiis obcaecati architecto.</p>
+            </div>
+            <div class="main__descripcion">
+              <h4>TROCHA DEL NEVADO</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias, corrupti reiciendis nemo ipsum asperiores tenetur explicabo. Possimus, reprehenderit eveniet odio corrupti inventore temporibus impedit autem fugit blanditiis obcaecati architecto.</p>
+            </div>
           </div>
         </section>
       </article>

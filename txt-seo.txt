@@ -15,3 +15,6 @@ DESCRIPTION:
 COMENTARIOS:
 -Se subio las imagenes al cloudinary
 -Se agrego el extend y mixin en Tramites y Servicios
+
+Color:
+-#e2cb9d

@@ -7,6 +7,20 @@
     height: 50px;
 }
 
+%estiloTitulo{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04724d;
+    height: 50px;
+}
+
+%estiloSubtitulo{
+    display: flex;
+    justify-content: space-between;
+}
+
 @mixin grillaBasica{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

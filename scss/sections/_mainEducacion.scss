@@ -6,12 +6,7 @@
     }
 
     &__educacion {
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #04724d;
-        height: 50px;
+        @extend %estiloTitulo;
     }
 
     &__subTitulos{

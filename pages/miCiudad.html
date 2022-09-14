@@ -9,19 +9,27 @@
     <meta name="keywords" content="ciudad, seguridad, obras, ofertas laborales">
     <!-- DESCRIPTION -->
     <meta name="description" content="Trabajamos por nuestra ciudad y para nuestros ciudadanos">
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>Ciudad</title>
+    
+    <title>CAJATAMBO | Ciudad</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../index.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <div class="logoCajatambo">
+        <div class="header__logoCajatambo">
           <img src="https://res.cloudinary.com/de5vqbdgz/image/upload/v1662687326/Mis%20imagenes/logoMuni_pnzvka.png" alt="logoMunicipalidad" />
           <h1>Municipalidad de <span>CAJATAMBO</span></h1>
         </div>
-        <div class="menu-mobile"><img src="https://res.cloudinary.com/de5vqbdgz/image/upload/v1662687326/Mis%20imagenes/menu_xm9ldg.png" alt="menumobilee" /></div>
-        <nav class="menu">
-          <ul class="ul">
+        <div class="header__menu-mobile header__toggle"><img src="https://res.cloudinary.com/de5vqbdgz/image/upload/v1662687326/Mis%20imagenes/menu_xm9ldg.png" alt="menumobilee" /></div>
+        <nav class="header__menu">
+          <ul class="header__ul">
             <li>
               <input
                 id="busqueda"
@@ -40,53 +48,98 @@
           </ul>
         </nav>
       </header>
+    <main class="mainC">
+      <h2 class="mainC__titulo">SEGURIDAD</h2>
 
-    <h2>Seguridad</h2>
+      <article class="mainC__seguridad">
+          <div class="mainC__pnpDescripcion">
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, adipisci? Repellendus commodi alias illum voluptatibus quam est corrupti quo! Temporibus accusantium exercitationem a accusamus aut.</span>
+            <p class="botones__seguridad"><span>Sé parte:</span><button>Policia</button> <button>Serenazgo</button> </p>
+          </div>         
+          <div>
+            <img src="https://www.elperuano.pe/fotografia/thumbnail/2021/04/20/000114534M.jpg" alt="policia">
+          </div>
+      </article>
 
-    <div>
-        <span>Imagen referencial</span>
-        <span>Descripción de la imagen</span>
-    </div>
+      <h2 class="mainC__titulo">OBRAS</h2>
+      <article class="mainC__obrasRecientes">
+        <span>Obras más recientes</span>
+        <span class="mainC__verTodasObras"> <a href="#">Ver todas-></a> </span>
+      </article>
+      <section class="mainC__container">
+        <div class="mainC__card">
+          <figure>
+            <img src="https://live.staticflickr.com/4144/5212640611_5b64a46b53_b.jpg" alt="iglesiaSMMag">
+          </figure>
+          <div class="mainC__contenido">
+            <h3>IGLESIA SANTA MARIA MAGDALENA</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita libero asperiores perspiciatis ipsum eveniet maxime.</p>
+          </div>
+        </div> 
+        <div class="mainC__card">
+          <div>
+            <img src="https://live.staticflickr.com/5086/5236958142_5faaec4b86_b.jpg" alt="plazaCajatambo">
+          </div>
+          <div>
+            <h3>PLAZA DE ARMAS</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita libero asperiores perspiciatis ipsum eveniet maxime.</p>
+          </div>
+        </div> 
+      </section>
 
-    <br><br>
+      <h2 class="mainC__titulo">OFERTAS LABORALES</h2>
+      <section class="mainC__container">
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.itmastersmag.com/wp-content/uploads/2020/10/shutterstock_232639537-scaled-e1604523953987.jpg" class="card-img-top" alt="puestoTrabajo01">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Aplicar</a>
+          </div>
+        </div>
 
-    <h2>Obras</h2>
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.elpaisano.pe/wp-content/uploads/2021/10/Ingenieria-de-sistemas.jpg" class="card-img-top" alt="puestoTrabajo02">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Aplicar</a>
+          </div>
+        </div>
 
-    <div>
-        <span>Descripción de la imagen</span>
-        <span>Imagen referencial</span>
-    </div>
-
-    <br><br>
-
-    <h2>Oferta Laborales</h2>
-    <div>
-        <h4>Titulo</h4>
-        <p>Descripción Leer más...</p>
-
-        <br>
-
-        <strong>Titulo</strong>
-        <p>Descripción Leer más...</p>
-    </div>
-
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.elgrupoinformatico.com/static/Manuales/2019/12/photoshop-logo-ordenador-1300x650.jpg" class="card-img-top" alt="puestoTrabajo03">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Aplicar</a>
+          </div>
+        </div>
+      </section>
+      
+    </main>
     <footer class="footer">
-        <section class="final">
-          <div class="redes"><h4>REDES</h4>
+        <section class="footer__final">
+          <div class="footer__redes"><h4>REDES</h4>
               <span>Instagram</span>
               <span>Facebook</span>
               <span>Twitter</span>
               <span>Linkedin</span>
             </div>
-          <div class="redes"><h4>CONTACTO</h4>
+          <div class="footer__redes"><h4>CONTACTO</h4>
           <span>Teléfono: (01)-4567899</span>
           <span>WhatsApp: 965874121</span>        
           </div>
-          <div class="redes"><h4>UBICACION</h4>
+          <div class="footer__redes"><h4>UBICACION</h4>
           <span>Jirón Miguel Grau s/n, Cajatambo 15195</span>
           </div>
         </section>
       </footer>
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
 </body>
 
 </html>

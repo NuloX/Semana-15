@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none; }
+  list-style: none;
+}
 
 h1 {
   font-size: 20px;
@@ -11,15 +12,18 @@ h1 {
   height: 50px;
   text-align: center;
   display: inline-block;
-  align-items: center; }
+  align-items: center;
+}
 
 h1 span {
-  color: #ad3030; }
+  color: #ad3030;
+}
 
 #busqueda {
   width: 240px;
   height: 22px;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
 .mainT__tramites {
   color: white;
@@ -27,22 +31,43 @@ h1 span {
   align-items: center;
   justify-content: center;
   background-color: #04724d;
-  height: 50px; }
+  height: 50px;
+}
+
+.mainE__educacion,
+.mainC__titulo,
+.mainO__titulo {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #04724d;
+  height: 50px;
+}
+
+.mainC__obrasRecientes,
+.mainO__subTitulo {
+  display: flex;
+  justify-content: space-between;
+}
 
 .main__titulo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 69px; }
+  height: 69px;
+}
 
 .main__rocas img {
   display: flex;
   height: 69px;
   width: 100%;
-  object-fit: none; }
+  object-fit: none;
+}
 
 .main__cajatamboTitulo img {
   width: 100%;
-  height: 69px; }
+  height: 69px;
+}
 
 .main__pared {
   max-width: 100%;
@@ -51,10 +76,12 @@ h1 span {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .main__loUltimo {
-  padding: 10px; }
+  padding: 10px;
+}
 
 .main__cards {
   display: grid;
@@ -62,81 +89,109 @@ h1 span {
   background-color: white;
   height: 90%;
   align-items: center;
-  margin: 0 25px; }
-  .main__cards img {
-    width: 100%;
-    height: 405px;
-    object-fit: contain; }
+  margin: 0 25px;
+}
+.main__cards img {
+  width: 100%;
+  height: 405px;
+  object-fit: contain;
+}
 
 .main__noticias {
   display: flex;
   flex-direction: column;
   width: 100%;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .main__turistico {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 650px;
-  justify-content: flex-start; }
+  height: 100%;
+  justify-content: flex-start;
+}
 
 .main__noticias1 {
   display: grid;
-  grid-template-areas: "fechas fechas" "fechas fechas";
+  grid-template-areas:
+    "fechas fechas"
+    "fechas fechas";
   grid-template-rows: repeat(2, 1fr);
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  justify-items: center; }
+  justify-items: center;
+}
 
 .main__panel {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 0; }
+  margin: 20px 0;
+}
 
 .main__fechas {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 3% 5%;
-  align-items: center; }
-  .main__fechas span {
-    width: 80px;
-    font-size: 20px;
-    height: 80px;
-    padding: 15px 20px 0px 20px;
-    font-weight: 400;
-    background-color: red;
-    color: white;
-    display: flex;
-    text-align: center;
-    margin-right: 20px;
-    justify-content: center; }
+  align-items: center;
+}
+.main__fechas span {
+  width: 80px;
+  font-size: 20px;
+  height: 80px;
+  padding: 15px 20px 0px 20px;
+  font-weight: 400;
+  background-color: red;
+  color: white;
+  display: flex;
+  text-align: center;
+  margin-right: 20px;
+  justify-content: center;
+}
 
 .main__turismo {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 0.5fr);
   justify-items: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .main__imgTu {
+  width: 100%;
+  height: 100%;
   max-width: 600px;
-  max-height: 500px;
+  max-height: 100%;
   background-color: #04724d;
-  object-fit: contain; }
+  object-fit: contain;
+}
+
+.main__img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.main__descripcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .mainT__griCards {
   height: 700px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr); }
+  grid-template-rows: repeat(2, 1fr);
+}
 
 .mainT__gridCardsServ {
   height: 350px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, 1fr);
+}
 
 .mainT__cardsTraPa {
   margin-left: 70px;
@@ -148,45 +203,44 @@ h1 span {
   justify-content: space-evenly;
   height: 80%;
   width: 80%;
-  background-color: #BFD5EA; }
+  background-color: #bfd5ea;
+}
 
 .mainT__btnTra {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .mainT__ayuda {
   display: flex;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 .mainE img {
   height: 650px;
-  width: 100%; }
-
-.mainE__educacion {
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #04724d;
-  height: 50px; }
+  width: 100%;
+}
 
 .mainE__subTitulos {
   margin: 10px 0;
   display: flex;
   align-items: center;
-  justify-content: left; }
+  justify-content: left;
+}
 
 .mainE__grado {
-  margin-top: 15px; }
+  margin-top: 15px;
+}
 
 .mainE__saberMas {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .header {
   width: 100%;
@@ -194,54 +248,390 @@ h1 span {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center; }
-  .header__logoCajatambo {
-    display: flex;
-    align-items: center; }
-    .header__logoCajatambo img {
-      padding-left: 5px;
-      width: 65px;
-      height: 65px; }
-  .header__menu-mobile img {
-    width: 40px;
-    margin-right: 20px; }
-  .header__menu li a {
-    text-decoration: none;
-    font-size: 17px;
-    color: #000;
-    font-weight: 700; }
-  .header__menu li a:hover {
-    border-bottom: 1px solid red;
-    background-color: gray; }
-  .header__ul {
-    display: flex;
-    align-items: center;
-    height: 50px; }
-    .header__ul li {
-      margin: 0 7px; }
+  align-items: center;
+}
+.header__logoCajatambo {
+  display: flex;
+  align-items: center;
+}
+.header__logoCajatambo img {
+  padding-left: 5px;
+  width: 65px;
+  height: 65px;
+}
+.header__menu-mobile img {
+  width: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.header__menu li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #000;
+  font-weight: 700;
+}
+.header__menu li a:hover {
+  border-bottom: 1px solid red;
+  background-color: gray;
+}
+.header__ul {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.header__ul li {
+  margin: 0 7px;
+}
 
 .footer {
   width: 100%;
-  background-color: #D9D9D9;
-  padding: 20px 80px; }
-  .footer__final {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; }
-  .footer__redes {
+  background-color: #d9d9d9;
+  padding: 20px 80px;
+  margin-top: 50px;
+}
+.footer__final {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.footer__redes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 33%;
+}
+.footer__redes h4 {
+  text-align: center;
+}
+.footer__redes span {
+  text-align: center;
+  padding: 3px 0px;
+}
+.footer__redes span:hover {
+  transform: skew(-15deg);
+  color: #ad4930;
+}
+.footer__contenido-Redes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.mainC__seguridad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mainC__seguridad img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.mainC__pnpDescripcion {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.mainC__verTodasObras {
+  margin-right: 10px;
+}
+
+.mainC__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainC__card {
+  width: 900;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+  cursor: default;
+}
+.mainC__card img {
+  object-fit: cover;
+  width: 900px;
+  height: 323px;
+}
+
+.mainO__containerImpu {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mainO__impuestos {
+  display: flex;
+  flex-direction: column;
+  background-color: #bfd5ea;
+  margin: 0 50px;
+}
+.mainO__impuestos p {
+  padding: 0 80px;
+}
+.mainO__impuestos span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.mainO__cajaReclamo {
+  border: black 2px solid;
+  margin: 20px 80px;
+}
+
+.mainO__subCajas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mainO__tipoYasunto {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.mainO__tipo {
+  margin: 20px 0;
+}
+
+.mainO__asunto {
+  margin: 20px 0;
+}
+
+.mainO__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.mainO__logo span {
+  display: block;
+  color: #ad3030;
+  text-align: center;
+}
+.mainO__logo img {
+  width: 50%;
+  height: 68%;
+}
+
+.mainO__textArea {
+  margin: 20px 20px;
+}
+.mainO__textArea textarea {
+  margin: 20px 40px;
+  width: 95%;
+  height: 220px;
+}
+
+.mainO__generar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 426px) {
+  .header__menu-mobile img {
+    display: none;
+  }
+}
+
+@media (max-width: 426px) {
+  .header {
+    justify-content: center;
+  }
+  .main__rocas {
+    display: none;
+  }
+  .main__titulo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main__cards img {
+    object-position: -999px;
+  }
+  .main__noticias1 {
+    grid-template-areas: none;
+  }
+  .main__turismo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main__imgTu img {
+    width: 100%;
+  }
+  .main__imgTu {
+    width: 100%;
+  }
+  .header__menu {
+    display: none;
+    width: 100%;
+    height: 260px;
+    background-color: lightslategrey;
+    transition: left 0.3s;
+  }
+  .header__menu ul {
+    padding-left: 23%;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    width: 33%; }
-    .footer__redes h4 {
-      text-align: center; }
-    .footer__redes span {
-      text-align: center;
-      padding: 3px 0px; }
-    .footer__redes span:hover {
-      transform: skew(-15deg);
-      color: #ad4930; }
-  .footer__contenido-Redes {
+    align-items: center;
+    position: fixed;
+    position: calc(100%-66px);
+  }
+  .header__menu li {
+    margin-top: 15px;
+  }
+  .header__menu-visible {
+    display: block;
+  }
+  .main__imgTu2 {
+    display: none;
+  }
+  .footer__redes {
+    margin: 20px 10px;
+  }
+  .footer {
+    padding: 20px 10px;
+  }
+  .footer__final {
+    flex-direction: column;
+    align-items: center;
+  }
+  /*----mobile education-----*/
+  .mainE__subTitulos {
+    justify-content: center;
+  }
+  .mainE img {
+    height: 280px;
+  }
+  .mainE__grado {
+    text-align: justify;
+    margin: 20px;
+  }
+  /*----mobile tramites-----*/
+  .mainT__subTitulos {
+    justify-content: center;
+  }
+  .mainT img {
+    height: 100%;
+  }
+  .mainT__grado {
+    text-align: justify;
+    margin: 20px;
+  }
+  button {
+    background: #04724d;
+    border: 2px solid #04724d;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px 30px;
+  }
+  .mainT__cardsTraPa {
+    margin: 10px auto;
+    width: 90%;
+    padding: 20px;
+  }
+  .mainT__griCards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  p.fw-semibold {
+    padding: 20px;
+  }
+  .mainT__educacion {
+    margin-top: 40px;
+  }
+  .mainT__btnTra {
+    margin-top: 200px;
+  }
+  .mainT__gridCardsServ {
+    height: 350px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); }
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .mainT__gridCardsServ {
+    margin-bottom: 100px;
+  }
+
+  /*     pagina de mi ciudad */
+
+  p.botones__seguridad span {
+    display: block;
+  }
+  button {
+    width: 200px;
+    margin: 5px 0px;
+  }
+  article.mainC__seguridad {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+  }
+  .mainC__pnpDescripcion span {
+    margin-top: 20px;
+    text-align: justify;
+  }
+  p.botones__seguridad {
+    text-align: center;
+  }
+  article.mainC__obrasRecientes {
+    padding: 0px 15px;
+  }
+  section.mainC__container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .mainC__contenido {
+    padding: 26px;
+  }
+  .mainC__card {
+    width: 100%;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+
+  /*     pagina de otros servicios*/
+
+  section.mainO__containerImpu {
+    height: auto;
+  }
+  .mainO__impuestos {
+    margin: 0px;
+    padding: 16px 15px;
+  }
+  .mainO__subTitulo {
+    padding: 20px;
+  }
+  section.mainO__reclamo h3 {
+    padding: 20px;
+  }
+  .mainO__textArea {
+    padding: 20px 20px;
+  }
+  .mainO__textArea textarea {
+    width: 100%;
+    height: 220px;
+    margin: 0px;
+  }
+  .mainO__textArea {
+    padding: 0px;
+  }
+  .mainO__cajaReclamo {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+}

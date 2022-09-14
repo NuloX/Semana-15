@@ -1,0 +1,94 @@
+.mainO{
+    &__titulo{
+        @extend %estiloTitulo;
+    }
+
+    &__subTitulo{
+        @extend %estiloSubtitulo;
+    }
+
+    &__containerImpu{
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    &__impuestos{
+        display: flex;
+        flex-direction: column;
+        background-color: #BFD5EA;
+        margin: 0 50px;
+
+        p{
+            padding: 0 80px;
+        }
+
+        span{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+    }
+
+    &__cajaReclamo{
+        border: black 2px solid;
+        margin: 20px 80px;
+
+    }
+
+    &__subCajas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__tipoYasunto{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    &__tipo{
+        margin: 20px 0;
+    }
+
+    &__asunto{
+        margin: 20px 0;
+    }
+
+    &__logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        span{
+            display: block;
+            color: #ad3030;
+            text-align: center;
+        }
+
+        img{
+            width: 50%;
+            height: 68%;
+        }
+    }
+
+    &__textArea{
+        margin: 20px 20px;
+        textarea{
+            margin: 20px 40px;
+            width: 100%-5%;
+            height: 220px;
+        }
+    }
+
+    &__generar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+}

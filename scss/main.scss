@@ -33,3 +33,136 @@ h1 {
 @import './sections/mainEducacion';
 @import './sections/header';
 @import './sections/footer';
+@import './sections/mainMiCiudad';
+@import './sections/mainOtrosServicios';
+
+@media (min-width: 426px ){
+  .header__menu-mobile img {
+    display: none;
+  }
+  }
+  @media (max-width: 426px){
+  .header{
+    justify-content: center;
+  }
+
+  .main__rocas {
+      display: none;
+  }
+  .main__titulo {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .main__cards {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .main__cards img{
+    object-position:-999px ;
+  }
+  .main__noticias1 {
+      grid-template-areas:none;
+  }
+  .main__turismo {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .main__imgTu img {
+      width: 100%;
+  }
+  .main__imgTu {
+      width: 100%;
+  }
+  .header__menu {
+    display: none;
+    width: 100%;
+    height: 260px;
+    background-color: lightslategrey;
+    transition: left 0.3s;
+      ul{
+        padding-left: 23%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        position: calc(100%-66px);
+      }
+
+      li{
+        margin-top: 15px;
+      }
+  }
+
+  .header__menu-visible{
+    display: block;
+  }
+
+  .main__imgTu2{
+      display: none ;
+  }
+  .footer__redes {
+      margin: 20px 10px;
+  }
+  .footer {
+      padding: 20px 10px;
+  }
+  .footer__final {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  /*----mobile education-----*/
+  
+  .mainE__subTitulos {
+      justify-content: center;
+  }
+  .mainE img {
+      height: 280px;
+  }
+  .mainE__grado {
+      text-align: justify;
+      margin: 20px;
+  }
+  /*----mobile tramites-----*/
+  .mainT__subTitulos {
+      justify-content: center;
+  }
+  .mainT img {
+      height: 100%;
+  }
+  .mainT__grado {
+      text-align: justify;
+      margin: 20px;
+  }
+  button {
+      background: #04724d;
+      border: 2px solid #04724d;
+      color: #fff;
+      border-radius: 8px;
+      padding: 6px 30px;
+  }
+  .mainT__cardsTraPa {
+      margin: 10px auto;
+      width: 90%;
+      padding: 20px;
+  }
+  .mainT__griCards {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+  }
+  p.fw-semibold {
+      padding: 20px;
+  }
+  .mainT__educacion {
+      margin-top: 40px;
+  }
+  .mainT__btnTra {
+      margin-top: 200px;
+  }
+  .mainT__gridCardsServ {
+      height: 350px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .mainT__gridCardsServ {
+      margin-bottom: 100px;
+  }
+  }
+  
