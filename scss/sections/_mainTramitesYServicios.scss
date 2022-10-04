@@ -8,6 +8,8 @@
         height: 700px;
         @include grillaBasica;
         grid-template-rows: repeat(2, 1fr);
+        margin-bottom: 50px;
+        padding-right: 25px;
     }
 
     &__gridCardsServ{
@@ -16,24 +18,38 @@
     }
 
     &__cardsTraPa{
-        margin-left: 70px;
-        margin-top: 35px;
+        padding: 20px;
+        margin: 40px;
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
         align-content: center;
         justify-content: space-evenly;
-        height: 80%;
-        width: 80%;
         background-color: #BFD5EA;
+
+        button{
+            background: #04724d;
+            border: 2px solid #04724d;
+            color: #fff;
+            border-radius: 8px;
+            margin-left:100%-55%;
+            padding: 6px 30px;
+            max-width: 100px;
+            text-align: center;
+            justify-content: center;
+        }
     }
 
-    &__btnTra{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
+    // &__btnTra{
+    //     margin-top:30px;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     margin-bottom: 20px;
+    // }
+
+    // &__containerT{
+    //     height: 1550px;
+    // }
 
     &__ayuda{
         display: flex;

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -139,14 +140,32 @@ h1 {
       padding: 6px 30px;
   }
   .mainT__cardsTraPa {
-      margin: 10px auto;
-      width: 90%;
+      margin: 10px 10px;
+      width: 100%;
+      max-height: 400px;
       padding: 20px;
+      justify-content: center;
+  }
+  .mainT__cardsTraPa button{
+    margin-left:100%-65%;
   }
   .mainT__griCards {
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: repeat(1, 1fr);
+    //   height: 1500px;
   }
+  .mainT__containerT{
+    height: 1550px;
+    }
+  .mainT__containerT2{
+    height: 1450px;
+    }
+  .mainT__containerT3{
+    height: 550px;
+    }
+  .mainT__containerT4{
+    height: 500px;
+    }
   p.fw-semibold {
       padding: 20px;
   }
@@ -154,6 +173,7 @@ h1 {
       margin-top: 40px;
   }
   .mainT__btnTra {
+      text-decoration: none;
       margin-top: 200px;
   }
   .mainT__gridCardsServ {
@@ -164,5 +184,73 @@ h1 {
   .mainT__gridCardsServ {
       margin-bottom: 100px;
   }
+  /*     pagina de mi ciudad */
+
+p.botones__seguridad span {
+    display: block;
+}
+button {
+    width: 200px;
+    margin: 5px 0px;
+}
+article.mainC__seguridad {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+}
+.mainC__pnpDescripcion span {
+    margin-top: 20px;
+    text-align: justify;
+}
+p.botones__seguridad {
+    text-align: center;
+}
+article.mainC__obrasRecientes {
+    padding: 0px 15px;
+}
+section.mainC__container {
+    flex-direction: column;
+    padding: 0 20px;
+}
+.mainC__contenido {
+    padding: 26px;
+}
+.mainC__card {
+    width: 100%;
+}
+.card {
+    margin-bottom: 20px;
+}
+
+/*     pagina de otros servicios*/
+
+section.mainO__containerImpu {
+    height: auto;
+}
+.mainO__impuestos {
+    margin: 0px;
+    padding: 16px 15px;
+}
+.mainO__subTitulo {
+    padding: 20px;
+}
+section.mainO__reclamo h3 {
+    padding: 20px;
+}
+.mainO__textArea {
+    padding: 20px 20px;
+  }
+.mainO__textArea textarea {
+    width: 100%;
+    height: 220px;
+    margin: 0px;
+}
+.mainO__textArea {
+    padding: 0px;
+}
+.mainO__cajaReclamo {
+    margin: 20px 10px;
+    padding: 20px;
+}
   }
   
